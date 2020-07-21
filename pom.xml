@@ -28,27 +28,27 @@
     <dependencies>
         <dependency>
             <groupId>com.omgameserver.engine</groupId>
-            <artifactId>omgameserver-engine-core</artifactId>
+            <artifactId>engine-core</artifactId>
             <version>${omgameserver.engine.version}</version>
         </dependency>
         <dependency>
             <groupId>com.omgameserver.engine</groupId>
-            <artifactId>omgameserver-engine-udp</artifactId>
+            <artifactId>engine-udp</artifactId>
             <version>${omgameserver.engine.version}</version>
         </dependency>
         <dependency>
             <groupId>com.omgameserver.engine</groupId>
-            <artifactId>omgameserver-engine-lua-runtime</artifactId>
+            <artifactId>engine-lua-runtime</artifactId>
             <version>${omgameserver.engine.version}</version>
         </dependency>
         <dependency>
             <groupId>com.omgameserver.engine</groupId>
-            <artifactId>omgameserver-engine-lua-udp</artifactId>
+            <artifactId>engine-lua-udp</artifactId>
             <version>${omgameserver.engine.version}</version>
         </dependency>
         <dependency>
             <groupId>com.omgameserver.engine</groupId>
-            <artifactId>omgameserver-engine-lua-msgpack</artifactId>
+            <artifactId>engine-lua-msgpack</artifactId>
             <version>${omgameserver.engine.version}</version>
         </dependency>
         <dependency>

@@ -7,8 +7,13 @@
     </appender>
 
     <logger name="com.crionuke.bolts" level="DEBUG" />
-    <logger name="com.omgameserver.examples.echoserver" level="DEBUG" />
-    <logger name="com.omgameserver.engine" level="DEBUG" />
+    <logger name="com.omgameserver.examples.echoserver" level="INFO" />
+
+    <logger name="com.omgameserver.engine.core" level="INFO" />
+    <logger name="com.omgameserver.engine.lua.msgpack" level="INFO" />
+    <logger name="com.omgameserver.engine.lua.runtime" level="INFO" />
+    <logger name="com.omgameserver.engine.lua.udp" level="INFO" />
+    <logger name="com.omgameserver.engine.udp" level="INFO" />
 
     <root level="INFO">
         <appender-ref ref="STDOUT"/>

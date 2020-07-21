@@ -1,0 +1,7 @@
+omgameserver:
+  engine:
+    core:
+      tickInterval: 100
+    udp:
+      pingInterval: 500
+      lossSimulationLevel: 0.4
